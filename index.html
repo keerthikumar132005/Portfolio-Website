@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta property="ix:host" content="assets.imgix.net" />
+    <meta property="ix:useHttps" content="true" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Portfolio Website</title>
@@ -8,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imgix.js/3.2.0/imgix.js"></script>
 
     <link
       rel="stylesheet"
@@ -156,7 +161,7 @@
         <figure
           class="lg:max-w-[550px] lg:relative lg:before:absolute lg:before:content-[''] lg:before lg:before:border-[20px] lg:before:rounded lg:before:border-accent lg:before:h-[70%] lg:before:w-[70%] lg:before lg:before:bg-transparent lg:before:-top-10 lg:before:-left-10 isolate lg:before:-z-10"
         >
-          <img src="images/showcase.png" alt="Profile Picture" />
+          <img ix-src="https://keerthikumar.imgix.net/showcase.png" />
         </figure>
       </section>
     </header>
@@ -247,7 +252,7 @@
         </div>
 
         <figure class="lg:max-w-[550px]">
-          <img src="images/about.jpg" alt="" />
+          <img src="https://keerthikumar.imgix.net/about.jpg" alt="" />
         </figure>
       </section>
 
@@ -262,7 +267,7 @@
           <figure class="certificate-items group">
             <img
               loading="lazy"
-              src="images/gallery-1.jpg"
+              src="https://keerthikumar.imgix.net/gallery-1.jpg"
               alt="DBMS Certificate"
               class="certificates"
             />
@@ -280,7 +285,7 @@
           <figure class="certificate-items group">
             <img
               loading="lazy"
-              src="images/gallery-2.jpg"
+              src="https://keerthikumar.imgix.net/gallery-2.jpg"
               alt="Deep Learning Certificate"
               class="certificates"
             />
@@ -298,7 +303,7 @@
           <figure class="certificate-items group">
             <img
               loading="lazy"
-              src="images/gallery-3.jpg"
+              src="https://keerthikumar.imgix.net/gallery-3.jpg"
               alt="Algorithmic Toolbox Certificate"
               class="certificates"
             />
@@ -316,7 +321,7 @@
           <figure class="certificate-items group">
             <img
               loading="lazy"
-              src="images/gallery-4.jpg"
+              src="https://keerthikumar.imgix.net/gallery-4.jpg"
               alt="Data Structures Certificate"
               class="certificates"
             />
@@ -334,7 +339,7 @@
           <figure class="certificate-items group">
             <img
               loading="lazy"
-              src="images/gallery-5.jpg"
+              src="https://keerthikumar.imgix.net/gallery-5.jpg"
               alt="Algorithms on Graphs Certificate"
               class="certificates"
             />
@@ -758,7 +763,10 @@
             class="grid sm:grid-rows-subgrid row-span-5 gap-y-4 p-6 rounded bg-secondary shadow-lg shadow-primary border-t-2 border-accent"
           >
             <figure>
-              <img src="./images/experience-1.jpg" alt="" />
+              <img
+                src="https://keerthikumar.imgix.net/experience-1.jpg"
+                alt=""
+              />
             </figure>
             <h3 class="font-bold text-xl">Zscaler Internship</h3>
             <h6 class="text-accent">July - September 2024</h6>
@@ -782,7 +790,7 @@
           >
             <figure>
               <img
-                src="./images/experience-2.jpg"
+                src="https://keerthikumar.imgix.net/experience-2.jpg"
                 alt=""
                 class="h-full w-full object-contain"
               />
@@ -814,7 +822,7 @@
     >
       <div class="flex flex-col gap-y-5 basis-full">
         <figure>
-          <img src="./images/form.jpg" alt="" />
+          <img src="https://keerthikumar.imgix.net/form.jpg" alt="" />
         </figure>
 
         <form
