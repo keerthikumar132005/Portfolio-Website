@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Portfolio Website</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./output/output.css" />
+  </head>
+
+  <body class="2xl:max-w-screen-2xl 2xl:mx-auto 2xl:bg-primary">
+    <div
+      class="home-arrow bg-accent text-text text-3xl lg:text-5xl p-3 border-2 border-accent rounded-full w-fit fixed bottom-[30px] right-[30px] z-20 hidden"
+    >
+      <a href="#home"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+    <header
+      class="p-6 bg-primary text-text relative md:p-16 flex flex-col gap-5 lg:gap-y-20"
+      id="home"
+    >
+      <nav class="p-2 flex justify-between items-center navbar">
+        <a href="#" class="text-accent text-2xl">KK</a>
+
+        <ul
+          class="nav sm:flex-row sm:scale-y-100 sm:backdrop-blur-0 sm:static sm:p-2 sm:bg-transparent"
+        >
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#home"
+              >Home</a
+            >
+          </li>
+
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#about"
+              >About</a
+            >
+          </li>
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#skills"
+              >Skills</a
+            >
+          </li>
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger sm:hidden"></div>
+
+        <div class="space-x-1 buttons">
+          <a href="tel:+919790022848"
+            ><i class="fa-solid fa-phone-volume"></i
+          ></a>
+          <a href="tel:+919790022848"><span>Call Me</span></a>
+        </div>
+      </nav>
+
+      <section
+        class="flex flex-col gap-10 lg:flex-row *:basis-full lg:gap-x-24 xl:gap-x-12"
+      >
+        <div
+          class="flex flex-col gap-y-5 lg:gap-y-12 xl:self-center xl:gap-y-24"
+        >
+          <div class="space-y-2 lg:space-y-4">
+            <h6
+              class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+            >
+              software development engineer
+            </h6>
+            <h1 class="text-5xl font-bold lg:text-7xl">Keerthi Kumar</h1>
+          </div>
+
+          <div
+            class="flex flex-col gap-y-5 lg:gap-y-8 xl:pl-16 xl:relative xl:before:h-full xl:before xl:before:w-5 xl:before:top-0 xl:before:left-0"
+          >
+            <ul class="flex gap-x-5">
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=61570755833241&sk=about"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <a target="_blank" href="https://x.com/KEERTHI04817530"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/keerthikumar132005/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/keerthikumar132005/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <a target="_blank" href="https://github.com/keerthikumar132005/"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+
+            <p class="lg:text-lg text-justify">
+              👋 Hi there! I'm a 💻 Computer Science Engineering student at
+              Chennai Institute of Technology, skilled in C++, Java, and 🔗
+              full-stack development. 🚀 Passionate about coding, 🧠 innovation,
+              and crafting 🌐 intuitive web & 📱 mobile solutions using modern
+              🛠️ technologies
+            </p>
+
+            <a
+              class="buttons"
+              target="_blank"
+              href="https://drive.google.com/file/d/1Dujg3VnrFcZgs1WUKIZsDOAeXIsiqPgn/view?usp=sharing"
+              >Download CV</a
+            >
+          </div>
+        </div>
+
+        <figure
+          class="lg:max-w-[550px] lg:relative lg:before:absolute lg:before:content-[''] lg:before lg:before:border-[20px] lg:before:rounded lg:before:border-accent lg:before:h-[70%] lg:before:w-[70%] lg:before lg:before:bg-transparent lg:before:-top-10 lg:before:-left-10 isolate lg:before:-z-10"
+        >
+          <img src="images/showcase.png" alt="Profile Picture" />
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <!-- ----------------motto -->
+      <section class="p-6 bg-secondary text-text md:p-16 2xl:rounded">
+        <div
+          class="p-2 flex flex-col gap-y-5 lg:w-3/4 lg:mx-auto lg:relative lg:after lg:after:h-2 lg:after:w-1/6 lg:after:-bottom-6 lg:after:left-2/4 lg:after:-translate-x-2/4"
+        >
+          <blockquote cite="https://www.azquotes.com/quote/263152">
+            <p
+              class="before:content-['\201C'] after:content-['\201D'] text-xl text-center lg:text-2xl"
+            >
+              Success is not the key to happiness. Happiness is the key to
+              success. If you love what you are doing, you will be successful.
+            </p>
+          </blockquote>
+          <p class="text-center font-bold">
+            - Albert Schweitzer., <cite>Success</cite>
+          </p>
+        </div>
+      </section>
+
+      <!-- ------------------about me -->
+      <section
+        id="about"
+        class="p-6 flex flex-col gap-10 bg-primary text-text relative md:p-16 2xl:rounded lg:flex-row *:basis-full"
+      >
+        <div class="space-y-5 xl:self-center">
+          <div
+            class="space-y-8 *:space-y-2 lg:relative lg:after lg:after:h-5 lg:after:w-3/4 lg:after:bottom-0 lg:pb-12"
+          >
+            <div>
+              <h6
+                class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+              >
+                About Me
+              </h6>
+              <h2 class="text-2xl capitalize font-bold lg:text-3xl">
+                Passionate Software Developer
+              </h2>
+            </div>
+
+            <div class="*:lg:text-lg">
+              <p class="text-justify">
+                🎓 As a Computer Science Engineering student at Chennai
+                Institute of Technology, I’m passionate about solving real-world
+                problems through technology. 💡 Skilled in C++, Python, Java,
+                and modern tools like React ⚛️, Flutter 📱, and Firebase ☁️, I
+                love creating impactful 🌐 web and 📲 mobile applications.
+                Competitive coding and innovation drive my journey as a tech
+                enthusiast!
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg text-accent font-semibold lg:text-xl">
+              My Achievements
+            </h3>
+
+            <ul class="space-y-1">
+              <li class="space-x-2">
+                <i class="fa-solid fa-angles-right text-accent"></i>
+                <span
+                  ><b>Starters 135 Division - 4 (Rated)</b> on a global
+                  competitive platform with a Global Rank of 111</span
+                >
+              </li>
+              <li class="space-x-2">
+                <i class="fa-solid fa-angles-right text-accent"></i>
+                <span
+                  ><b>Successfully solved 4 problems</b> in Codeforces Round 970
+                  (Div. 3) using C++17</span
+                >
+              </li>
+              <li class="space-x-2">
+                <i class="fa-solid fa-angles-right text-accent"></i>
+                <span
+                  ><b>Electrathon and CodeAthon finalist</b> hosted by Chennai
+                  Institute Of Technology, Showcasing coding skills in a
+                  competitive environment</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <figure class="lg:max-w-[550px]">
+          <img src="images/about.jpg" alt="" />
+        </figure>
+      </section>
+
+      <!-- ----------Certifications -->
+      <section class="md:p-16 flex flex-col justify-start bg-secondary gap-y-6">
+        <h2
+          class="before lg:before:h-2 lg:before:w-6 lg:before:top-1/2 lg:before:-translate-x-1/2 lg:before:left-2 p-8 text-2xl capitalize relative font-bold lg:text-3xl text-text"
+        >
+          Certifications
+        </h2>
+        <div class="p-6 flex flex-wrap w-full gap-x-10 gap-y-20 justify-center">
+          <figure class="certificate-items group">
+            <img
+              loading="lazy"
+              src="images/gallery-1.jpg"
+              alt="DBMS Certificate"
+              class="certificates"
+            />
+            <figcaption
+              class="absolute top-2/4 left-2/4 text-text transition z-[11] scale-0 group-hover:scale-100 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 text-center font-bold lg:text-2xl buttons"
+            >
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1Pt3C8jQ2gbCXpiMKoJymJXDFmSy7YlcA/view?usp=sharing"
+                >NPTEL certificate for 'DBMS'</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="certificate-items group">
+            <img
+              loading="lazy"
+              src="images/gallery-2.jpg"
+              alt="Deep Learning Certificate"
+              class="certificates"
+            />
+            <figcaption
+              class="absolute top-2/4 left-2/4 text-text transition z-[11] scale-0 group-hover:scale-100 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 text-center font-bold lg:text-2xl buttons"
+            >
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1q30BJVbMtJISYh03Oj5OzExZ-qH0KouG/view?usp=sharing"
+                >NPTEL certificate for 'Deep Learning'</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="certificate-items group">
+            <img
+              loading="lazy"
+              src="images/gallery-3.jpg"
+              alt="Algorithmic Toolbox Certificate"
+              class="certificates"
+            />
+            <figcaption
+              class="absolute top-2/4 left-2/4 text-text transition z-[11] scale-0 group-hover:scale-100 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 text-center font-bold lg:text-2xl buttons"
+            >
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1ZgbcGhYSwLg0-S9n8CObnqw1sQi3bfh5/view?usp=sharing"
+                >'Algorithmic Toolbox' by UC San Diego</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="certificate-items group">
+            <img
+              loading="lazy"
+              src="images/gallery-4.jpg"
+              alt="Data Structures Certificate"
+              class="certificates"
+            />
+            <figcaption
+              class="absolute top-2/4 left-2/4 text-text transition z-[11] scale-0 group-hover:scale-100 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 text-center font-bold lg:text-2xl buttons"
+            >
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1BlM3PMNIdh90uMxznd2RSaue7PT6PeEt/view?usp=sharing"
+                >'Data Structures' by UC San Diego</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="certificate-items group">
+            <img
+              loading="lazy"
+              src="images/gallery-5.jpg"
+              alt="Algorithms on Graphs Certificate"
+              class="certificates"
+            />
+            <figcaption
+              class="absolute top-2/4 left-2/4 text-text transition z-[11] scale-0 group-hover:scale-100 group-hover:-translate-x-2/4 group-hover:-translate-y-2/4 text-center font-bold lg:text-2xl buttons"
+            >
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1CIjJjUqVkS5_AfextdfIl_8abXNhvlyF/view?usp=sharing"
+                >'Algorithms on Graphs' by UC San Diego</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ------------------skills -->
+      <section
+        id="skills"
+        class="p-6 flex flex-col-reverse items-center gap-y-10 bg-primary text-text md:p-16 *:basis-full"
+      >
+        <div class="space-y-5 self-start xl:space-y-10 lg:w-[80vw]">
+          <div class="space-y-2">
+            <h6
+              class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+            >
+              My Skills
+            </h6>
+            <h2 class="text-2xl capitalize font-bold lg:text-3xl">
+              I am experienced in the following Tech Stacks
+            </h2>
+          </div>
+
+          <div class="space-y-2">
+            <p class="text-justify lg:text-lg">
+              I have hands-on experience with a diverse range of tech stacks,
+              including C++, Python, Java, and modern tools like React ⚛️,
+              Flutter 📱, Firebase ☁️, MySQL 🐬, and MongoDB 🍃, enabling me to
+              build innovative solutions.
+            </p>
+          </div>
+
+          <div
+            class="space-y-10 xl:space-y-8 *:flex-col *:md:flex-row *:items-start *:md:items-center lg:pl-36 lg:*:space-x-14"
+          >
+            <div class="flex items-center gap-2">
+              <img
+                src="./images/tech stacks/cPlusPlus.svg"
+                alt=""
+                class="scale-[75%] md:scale-100"
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[98%] before:rounded-full z-10 before:-z-10 pl-4"
+              >
+                98%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/java.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[97%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                97%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/html.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[99%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                99%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/css.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[96%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                96%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/js.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[95%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                95%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/git.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[97%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                97%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/github.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[97%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                97%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/sass.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[90%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                90%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/tailwind.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[94%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                94%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/firebase.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[90%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                90%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/bootstrap.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[90%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                90%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/reactjs.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[80%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                80%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/flutter.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[65%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                65%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/nextjs.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[60%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                60%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/mysql.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[90%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                90%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/mongodb.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[80%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                80%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/canva.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[80%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                80%
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <img
+                class="scale-[75%] md:scale-100"
+                src="./images/tech stacks/figma.svg"
+                alt=""
+              />
+              <div
+                class="h-6 w-full rounded-full bg-secondary relative before before:top-0 before:left-0 before:h-6 before:w-[75%] before:rounded-full isolate z-10 before:-z-10 pl-4"
+              >
+                75%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <figure>
+          <div id="lottie-animation" class="max-w-[600px] mx-auto border"></div>
+        </figure>
+      </section>
+
+      <!-- -----------------competitive programming section -->
+      <section
+        class="p-6 flex flex-col gap-y-10 bg-secondary text-text lg:gap-x-10 lg:flex-row-reverse *:basis-full md:p-16"
+      >
+        <div class="space-y-5 *:space-y-2 lg:self-center xl:space-y-10">
+          <div>
+            <h6
+              class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+            >
+              Competitive Programming Achievements
+            </h6>
+            <h2 class="text-2xl capitalize font-bold lg:text-3xl">
+              Exploring Problem-Solving and Optimized Algorithms Across Global
+              Platforms
+            </h2>
+          </div>
+
+          <div>
+            <p class="lg:text-lg text-justify">
+              💻 I have honed my problem-solving skills and algorithmic thinking
+              through active participation in competitive programming on
+              platforms like LeetCode 🔗, CodeChef 🍴, and Codeforces ⚔️. 🌟
+              Tackling global challenges has sharpened my ability to craft
+              efficient, optimized solutions.
+            </p>
+          </div>
+
+          <a href="#" class="inline-block buttons">Learn More</a>
+        </div>
+
+        <div
+          class="grid gap-5 *:flex *:flex-col *:gap-y-5 *:items-center *:border-2 *:border-accent *:rounded *:p-8 sm:grid-cols-2"
+        >
+          <div>
+            <figure class="h-28 w-28">
+              <img src="./images/cp/leetcode.svg" alt="" />
+            </figure>
+
+            <h5>
+              <a
+                target="_blank"
+                href="https://leetcode.com/u/keerthikumarcse/"
+                class="buttons inline-block"
+                >LeetCode</a
+              >
+            </h5>
+            <p class="text-center lg:text-lg">
+              <b>600+ Problems Solved 7 Badges</b>!
+            </p>
+          </div>
+
+          <div>
+            <figure class="h-28 w-28">
+              <img src="./images/cp/codechef.svg" alt="" />
+            </figure>
+
+            <h5 class="text-xl">
+              <a
+                target="_blank"
+                href="https://www.codechef.com/users/keerthikumar27"
+                class="buttons inline-block"
+                >Codechef</a
+              >
+            </h5>
+            <p class="text-center lg:text-lg">⭐⭐ @ <b>CodeChef</b></p>
+          </div>
+
+          <div>
+            <figure class="h-28 w-28">
+              <img src="./images/cp/geeksforgeeks.svg" alt="" />
+            </figure>
+
+            <h5 class="text-xl">
+              <a
+                target="_blank"
+                href="https://www.geeksforgeeks.org/user/keerthikumpj9l/"
+                class="buttons inline-block"
+                >GeeksforGeeks</a
+              >
+            </h5>
+            <p class="text-center lg:text-lg">
+              📊 79th Rank @ Institute Level on GeeksforGeeks
+            </p>
+          </div>
+
+          <div>
+            <figure class="h-28 w-28">
+              <img src="./images/cp/codeforces.svg" alt="" />
+            </figure>
+
+            <h5 class="text-xl">
+              <a
+                target="_blank"
+                href="https://codeforces.com/profile/keerthikumar132005"
+                class="buttons inline-block"
+                >Codeforces</a
+              >
+            </h5>
+            <p class="text-center lg:text-lg">
+              🏆 Contest Rating: 1000 @ Codeforces
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ----------------Experiences -->
+      <section
+        class="p-6 flex flex-col gap-y-10 bg-primary text-text relative md:p-16 lg:gap-x-10 lg:flex-row *:basis-full lg:items-center"
+      >
+        <div>
+          <div class="space-y-5 lg:space-y-10">
+            <h6
+              class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+            >
+              Experiences
+            </h6>
+            <h2 class="text-2xl capitalize font-bold lg:text-3xl">
+              Hands-On Learning Through Internships and Real-World Projects
+            </h2>
+            <p class="lg:text-lg text-justify">
+              🔧 Gaining practical experience through internships and real-world
+              projects, I’ve applied my skills in web development, mobile app
+              creation, and software engineering. 🌟 These opportunities have
+              strengthened my technical expertise and problem-solving abilities
+              in dynamic environments
+            </p>
+            <a href="#" class="buttons inline-block">View Experiences</a>
+          </div>
+        </div>
+
+        <div
+          class="grid gap-y-5 sm:grid-cols-2 sm:grid-rows-[min-content] sm:gap-x-5"
+        >
+          <div
+            class="grid sm:grid-rows-subgrid row-span-5 gap-y-4 p-6 rounded bg-secondary shadow-lg shadow-primary border-t-2 border-accent"
+          >
+            <figure>
+              <img src="./images/experience-1.jpg" alt="" />
+            </figure>
+            <h3 class="font-bold text-xl">Zscaler Internship</h3>
+            <h6 class="text-accent">July - September 2024</h6>
+            <p class="text-justify">
+              Gained hands-on experience in cutting-edge cybersecurity
+              technologies and cloud-based network security solutions
+            </p>
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/18B5Mx5WUR83yftMv4cfxSYG6by7s3o26/view?usp=sharing"
+              class="buttons inline-block justify-self-start group lg:max-1070:text-base"
+              ><span>Download</span>
+              <i
+                class="fa-solid fa-angles-right text-accent ml-2 transition-transform group-hover:translate-x-2"
+              ></i
+            ></a>
+          </div>
+
+          <div
+            class="grid sm:grid-rows-subgrid row-span-5 gap-y-4 p-6 rounded bg-secondary shadow-lg shadow-primary border-t-2 border-accent"
+          >
+            <figure>
+              <img
+                src="./images/experience-2.jpg"
+                alt=""
+                class="h-full w-full object-contain"
+              />
+            </figure>
+            <h3 class="font-bold text-xl">Cisco Packet Tracer Internship</h3>
+            <h6 class="text-accent">June - July 2024</h6>
+            <p class="text-justify">
+              Completed foundational training via Cisco Networking Academy,
+              mastering network simulation and configuration tools
+            </p>
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1BTTNP3VEcQHptawLNFKHhvW6mco5ecBk/view?usp=sharing"
+              class="buttons inline-block justify-self-start group lg:max-1070:text-base"
+              ><span>Download</span>
+              <i
+                class="fa-solid fa-angles-right fa-solid fa-angles-right text-accent ml-2 transition-transform group-hover:translate-x-2"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ----------------------footer -->
+    <footer
+      id="contact"
+      class="p-6 flex flex-col gap-y-10 bg-secondary text-text md:p-16 lg:gap-x-10 lg:flex-row *:basis-full"
+    >
+      <div class="flex flex-col gap-y-5 basis-full">
+        <figure>
+          <img src="./images/form.jpg" alt="" />
+        </figure>
+
+        <form
+          class="flex flex-col gap-5 *:px-4 *:py-2 *:rounded *:outline-none basis-full"
+        >
+          <input
+            type="text"
+            placeholder="Name"
+            class="bg-accent text-text placeholder:text-text/80 h-12 sm:h-16 lg:basis-[15%]"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="bg-accent text-text placeholder:text-text/80 h-12 sm:h-16 lg:basis-[15%]"
+          />
+          <textarea
+            placeholder="Message"
+            class="bg-accent text-text placeholder:text-text/80 h-60 2xl:basis-[100%]"
+          ></textarea>
+          <input
+            type="submit"
+            value="Submit"
+            class="border-2 border-accent text-text cursor-pointer h-12 sm:h-16 basis-[15%]"
+          />
+        </form>
+      </div>
+
+      <div
+        class="flex flex-col p-4 justify-center gap-y-10 bg-primary text-text md:p-16 lg:gap-y-16"
+      >
+        <div>
+          <h6
+            class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+          >
+            Let's talk
+          </h6>
+          <h2 class="text-2xl capitalize font-bold lg:text-3xl">
+            Keep In Touch
+          </h2>
+        </div>
+
+        <p class="lg:text-lg text-justify">
+          📬 Let’s connect! Feel free to reach out for collaborations,
+          opportunities, or discussions. 🌟 I’m excited to share ideas, explore
+          possibilities, and work together on innovative projects!
+        </p>
+
+        <div
+          class="grid gap-2 sm:grid-cols-2 sm:gap-y-5 lg:grid-cols-1 xl:grid-cols-2 xl:gap-y-10"
+        >
+          <div
+            class="grid grid-cols-[1fr] grid-rows-3 340:grid-cols-[90px_1fr] 340:grid-rows-2 gap-x-5 340:gap-y-2"
+          >
+            <figure class="row-span-2 self-center">
+              <img class="w-20 h-20" src="./images/contact-icon-1.png" alt="" />
+            </figure>
+
+            <h6 class="text-accent self-end">Phone</h6>
+            <p class="self-start">+91 97900 22848</p>
+          </div>
+
+          <div
+            class="grid grid-cols-[1fr] grid-rows-3 340:grid-cols-[90px_1fr] 340:grid-rows-2 gap-x-5 340:gap-y-2"
+          >
+            <figure class="row-span-2 self-center">
+              <img class="w-20 h-20" src="./images/contact-icon-2.png" alt="" />
+            </figure>
+
+            <h6 class="text-accent self-end">Email(@gmail.com)</h6>
+            <p class="self-start">keerthikumar132005</p>
+          </div>
+
+          <div
+            class="grid grid-cols-[1fr] grid-rows-3 340:grid-cols-[90px_1fr] 340:grid-rows-2 gap-x-5 340:gap-y-2"
+          >
+            <figure class="row-span-2 self-center">
+              <img class="w-20 h-20" src="./images/contact-icon-3.png" alt="" />
+            </figure>
+
+            <h6 class="text-accent self-end">Websites</h6>
+            <p class="self-start">www.kk.com</p>
+          </div>
+
+          <div
+            class="grid grid-cols-[1fr] grid-rows-3 340:grid-cols-[90px_1fr] 340:grid-rows-2 gap-x-5 340:gap-y-2"
+          >
+            <figure class="row-span-2 self-center">
+              <img class="w-20 h-20" src="./images/contact-icon-4.png" alt="" />
+            </figure>
+
+            <h6 class="text-accent self-end">Address</h6>
+            <p class="self-start">Kundrathur, Chennai</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
